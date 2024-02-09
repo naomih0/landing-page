@@ -68,10 +68,10 @@ h1 {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #21b96b;
     border-radius: 5px;
     color: #F9FAF8;
-    border: #3882F6 1px solid;
+    border: #21b96b 1px solid;
     font-size: 16px;
     padding: 8px 16px;
 }
@@ -104,7 +104,7 @@ button {
 }
 
 .imgbox img {
-    border: #3882F6 solid 5px;
+    border: #21b96b solid 5px;
     border-radius: 5px;
 }
 
@@ -120,6 +120,7 @@ h2 {
 
 .section3 {
     background-color: #E5E7EB;
+    background-color: #bbe46b;
     flex-direction: column;
 }
 
@@ -152,7 +153,7 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #21b96b;
     margin: 40px 0px;
     border-radius: 5px;
     padding: 0px 20px;
@@ -180,3 +181,8 @@ footer {
     color: #E5E7EB;
 }
 
+@media screen and (max-width: 768px) {
+    .section1 {
+        flex-wrap: wrap; 
+    }
+  }
